@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    font-family:    'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.nav {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px dotted rgb(212, 207, 207) ;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    list-style-type: none;
+    gap: 25px;
+
+}
+.list-item:hover{
+    color:rgb(197, 184, 184)
+}
+.logo img{
+
+    width: 220px;
+    height: 100px;
+}
+.aft::after{
+    left: 5px;
+    content: "";
+    display: inline-block;
+    width: 7px;
+    margin-left: 7px;
+    height: 7px;
+    border-left: 1px solid rgb(34, 34, 34);
+    border-bottom:1px solid rgb(34, 34, 34); 
+    transform: rotate(-45deg);
+}
+.banner{
+   
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+    border-bottom: 3px dotted rgb(212, 207, 207) ;
+    padding-bottom: 30px;
+}
+.banner-right{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap:30px; 
+   
+}
+.banner-right > div{
+    width: 50%;
+   
+}
+.left img{
+   
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px; 
+}
+   
+.right img{
+     width: 100%;
+    padding-top: 8px; 
+    padding-bottom: 8px;
+  
+}
+.left-banner img{
+   width: 100%;
+   
+ 
+}
+.left-banner{
+    position: relative;
+    width: 50%;
+
+}
+
+.txt1{
+    position: absolute;
+    color: #ffff;
+    top: 50%;
+    left:50%;
+    transform : translate(-50% ,-50%);
+    line-height: 50px;
+    
+}
+.txt1 a{
+    color: #ffff;
+    border: 2px solid #ffff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #ffff;
+    color: black;
+}
+.women{
+    position: relative;
+
+}
+.txt2{
+    position: absolute;
+    text-align: center;
+    color: #ffff;
+    top: 50%;
+    left:50%;
+    transform : translate(-50% ,-50%);
+    line-height: 50px;
+
+}
+
+.men{
+    position: relative;
+
+}
+.txt3{
+    position: absolute;
+    text-align: center;
+    color: #ffff;
+    top: 50%;
+    left:50%;
+    transform : translate(-50% ,-50%);
+    line-height: 50px;
+
+}
+
+.kids{
+    position: relative;
+
+}
+.txt4{
+    position: absolute;
+    text-align: center;
+    color: #ffff;
+    top: 50%;
+    left:50%;
+    transform : translate(-50% ,-50%);
+    line-height: 50px;
+
+}
+.accessories{
+    position: relative;
+
+}
+.txt5{
+    position: absolute;
+    text-align: center;
+    color: #ffff;
+    top: 50%;
+    left:50%;
+    transform : translate(-50% ,-50%);
+    line-height: 50px;
+}
+.card{
+
+    padding: 50px  ;
+    border-bottom: 3px dotted rgb(212, 207, 207) ;
+}
+.txt{ 
+  padding-left: 180px;
+  margin-bottom: 50px; 
+
+}
+.txt p{
+    color: rgb(148, 146, 143);
+}
+.card-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.txtc{
+    
+    padding-left: 50px;
+}
+.txtc p{
+    margin-top: 5px;
+    
+    color: rgb(148, 146, 143);
+}
+.star::after{
+    content: "⭐️⭐️⭐️⭐️⭐️⭐️";
+   padding-left: 180px;
+}
+
+.multiple-items{
+   
+    width: 100%;
+    padding-left: 60px; 
+    display:flex ;  
+    justify-content: space-around; 
+  align-items: center;
+}
+.items{
+    padding: 50px;
+}
+.iconb::before{
+content: url(../img/arrow-left-circle.svg);
+padding-right: 30px;
+ 
+}
+.icona::after{
+    content: url(../img/arrow-right-circle.svg);
+    padding-right: 20px;
+
+ }
+
+    
